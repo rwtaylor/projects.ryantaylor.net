@@ -13,7 +13,7 @@
 
             <!-- Main title -->
 
-          <a class="navbar-brand" href="http://projects.ryantaylor.net"><span class="octicon octicon-arrow-up"></span></a>
+          <a class="navbar-brand" id="left-nav-icon" href="http://projects.ryantaylor.net"><span class="mega-octicon octicon-arrow-left "></span></a>
           <a class="navbar-brand" href="{{ homepage_url }}">{{ site_name }}</a>
         </div>
 
@@ -46,12 +46,7 @@
                 {% if repo_url %}
                 <li>
                     <a href="{{ repo_url }}">
-                        {% if repo_name == 'GitHub' %}
                             <span class="octicon octicon-logo-github"></span>
-                        {% elif repo_name == 'Bitbucket' %}
-                            <i class="fa fa-bitbucket"></i>
-                        {% endif %}
-                        {{ repo_name }}
                     </a>
                 </li>
                 {% endif %}

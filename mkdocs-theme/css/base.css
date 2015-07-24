@@ -10,6 +10,28 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     height: 75px;
 }
 
+#left-nav-icon {
+  padding-right: 8px;
+  margin-right: 7px;
+  padding-top: 4px;
+  padding-bottom: 0px;
+  margin-top: 7px;
+  height: 25px;
+  margin-bottom: 5px;
+  border-right-style: solid;
+  border-right-color: #BCBCBC;
+  border-right-width: thin;
+}
+
+#left-nav-icon > .mega-octicon {
+  line-height: 18px;
+  color: #BCBCBC;
+}
+
+#left-nav-icon > .mega-octicon:hover, .mega-octicon:focus {
+  color: #d9230f;
+}
+
 ul.nav li.main {
     font-size: 1.1em;
 }
