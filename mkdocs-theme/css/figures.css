@@ -1,0 +1,6 @@
+.figure img {
+  display:none;
+}
+.figure img:target {
+  display:block;
+}
