@@ -25,12 +25,12 @@ function getCheckedRadioValue(name) {
         if (elements[i].checked) return elements[i].value;
 }
 
-function changeURL() {
+function changeURL(root) {
     var d1 = $("#chrom").find(":selected").attr("value");
     var d2 = getCheckedRadioValue("var_fill");
     var d3 = getCheckedRadioValue("aggregation");
     var d4 = getCheckedRadioValue("padding");
-    var url = ("http://public.ryantaylor.net/figure/04b3-" + d1 + "-l2-" + d2 + "-" + d3 + "-" + d4 + ".png");
+    var url = ("http://public.ryantaylor.net/figure/" + root + "-" + d1 + "-l2-" + d2 + "-" + d3 + "-" + d4 + ".png");
     $('#plotimage').attr("src", url);
 }
 
