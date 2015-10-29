@@ -30,7 +30,7 @@ function changeURL(root) {
     var d2 = getCheckedRadioValue("var_fill");
     var d3 = getCheckedRadioValue("aggregation");
     var d4 = getCheckedRadioValue("padding");
-    var url = ("http://public.ryantaylor.net/figure/" + root + "-" + d1 + "-l2-" + d2 + "-" + d3 + "-" + d4 + ".png");
+    var url = (root + "-" + d1 + "-l2-" + d2 + "-" + d3 + "-" + d4 + ".png");
     $('#plotimage').attr("src", url);
 }
 
