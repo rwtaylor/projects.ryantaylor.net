@@ -34,6 +34,6 @@ function changeURL() {
     $('#plotimage').attr("src", url);
 }
 
-$( "input[type='radio']" ).change(function() {
+$( ".radio input[type="radio"]" ).change(function() {
   changeURL();
 });
